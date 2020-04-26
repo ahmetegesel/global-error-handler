@@ -145,7 +145,7 @@ test('handle should invoke default handler when there is no applicable custom er
   };
 
   globalErrorHandler.register(errorHandler, {
-    override: true
+    override: true,
   });
 
   const error = new Error('Some Error');
