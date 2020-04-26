@@ -1,0 +1,43 @@
+{
+  "name": "global-error-handler",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Npm package that contains common global error handling functionalities, helpers and structures.",
+  "main": "src/index.js",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src -c .eslintrc.js --ext js --fix",
+    "prettier": "prettier --config ./.prettierrc.js --ignore-path ./.prettierignore --write \"./**/*.{js,json}\"",
+    "release": "npm publish",
+    "precommit": "npm run lint && npm run test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/polyfill": "^7.8.7",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.4",
+    "jest": "^25.2.1",
+    "@types/jest": "^25.2.1"
+  },
+  "directories": {
+    "test": "tests",
+    "src": "src",
+    "dist": "dist",
+    "types": "types"
+  },
+  "keywords": [
+    "error",
+    "global-error-handling",
+    "global-error-handler",
+    "global-error"
+  ],
+  "author": "ahmetegesel@hotmail.com"
+}
