@@ -1,5 +1,5 @@
 # global-error-handler
-This package is for handling error in any type of Javascript application in aspect oriented way.
+This package is for handling error in any type of Javascript application in an aspect oriented way.
 
 ## Installation
 ```

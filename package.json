@@ -2,7 +2,7 @@
   "name": "global-error-handler",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "Npm package that contains common global error handling functionalities, helpers and structures.",
+  "description": "This package is for handling error in any type of Javascript application in an aspect oriented way.",
   "main": "src/index.js",
   "typings": "types/index.d.ts",
   "scripts": {
@@ -26,6 +26,10 @@
     "prettier": "^2.0.4",
     "jest": "^25.2.1",
     "@types/jest": "^25.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetegesel/global-error-handler.git"
   },
   "directories": {
     "test": "tests",
