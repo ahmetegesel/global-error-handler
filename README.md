@@ -1,3 +1,6 @@
+[![Coverage Status](https://codecov.io/gh/ahmetegesel/global-error-handler/branch/master/graph/badge.svg)](https://codecov.io/gh/ahmetegesel/global-error-handler)
+[![npm version](https://badge.fury.io/js/global-error-handler.svg)](https://badge.fury.io/js/global-error-handler)
+
 # global-error-handler
 This package is for handling error in any type of Javascript application in an aspect oriented way.
 
