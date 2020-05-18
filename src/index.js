@@ -17,7 +17,8 @@ export class GlobalErrorHandler {
       throw new Error('errorHandler cannot be undefined');
     }
 
-    let { key, handler } = errorHandler;
+    const { handler } = errorHandler;
+    let { key } = errorHandler;
 
     if (!key) {
       throw new Error('You must provide a key for the handler.');
@@ -45,8 +46,7 @@ export class GlobalErrorHandler {
   }
 
   handle(error, handlerKey) {
-    const handler =
-      this.errorHandlers[handlerKey || error.constructor.name] || this.errorHandlers.default;
+    const handler = this.errorHandlers[handlerKey || error.constructor.name] || this.errorHandlers.default;
 
     handler(error);
   }
