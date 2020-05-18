@@ -7,7 +7,7 @@ export interface ErrorHandler {
   handler: Function;
 }
 
-export default interface GlobalErrorHandler {
+export class GlobalErrorHandler {
   register(errorHandler: ErrorHandler, options: HandlerOptions): boolean;
   isRegistered(errorHandlerKey: string): boolean;
   handle(error: Error | any, errorHandlerKey: string): void;
