@@ -36,7 +36,7 @@ const someHandler = error => {
 globalErrorHandler.register({
     key: 'someKey',
     handler: someHandler
-}
+})
 
 // someComponent.js
 
