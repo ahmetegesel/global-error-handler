@@ -61,6 +61,7 @@ This way you can have the benefit of being able to use `throw` keyword and make 
 catch the error and pass it to `GlobalErrorHandler` to handle it.
 ```
 // someMain.js
+import { GlobalErrorHandler } from 'global-error-handler';
 
 const globalErrorHandler = new GlobalErrorHandler();
 

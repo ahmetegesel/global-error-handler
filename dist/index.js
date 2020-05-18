@@ -46,8 +46,8 @@ var GlobalErrorHandler = /*#__PURE__*/function () {
         throw new Error('errorHandler cannot be undefined');
       }
 
-      var key = errorHandler.key,
-          handler = errorHandler.handler;
+      var handler = errorHandler.handler;
+      var key = errorHandler.key;
 
       if (!key) {
         throw new Error('You must provide a key for the handler.');
