@@ -1,6 +1,6 @@
 {
   "name": "global-error-handler",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "description": "This package is for handling error in any type of Javascript application in an aspect oriented way.",
   "main": "dist/index.js",

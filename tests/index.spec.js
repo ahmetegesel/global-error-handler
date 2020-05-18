@@ -1,4 +1,4 @@
-import GlobalErrorHandler from '../src';
+import { GlobalErrorHandler } from '../src';
 
 test('register should throw error when errorHandler is not given', () => {
   const globalErrorHandler = new GlobalErrorHandler();

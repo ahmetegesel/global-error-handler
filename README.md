@@ -26,6 +26,7 @@ There are two ways of registering an `ErrorHandler`.
 ### Register with a unique 'string' key
 ```
 // someMain.js
+import { GlobalErrorHandler } from 'global-error-handler';
 
 const globalErrorHandler = new GlobalErrorHandler();
 

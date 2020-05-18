@@ -2,7 +2,7 @@ const defaultOptions = {
   override: true,
 };
 
-module.exports = class GlobalErrorHandler {
+export class GlobalErrorHandler {
   constructor() {
     this.errorHandlers = {};
     this.register({ key: 'default', handler: (error) => console.error(error) });
@@ -50,4 +50,4 @@ module.exports = class GlobalErrorHandler {
 
     handler(error);
   }
-};
+}
