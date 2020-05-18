@@ -1,6 +1,7 @@
 {
   "name": "global-error-handler",
   "version": "0.0.5",
+  "author": "Ahmet Egesel <ahmetegesel@hotmail.com>",
   "license": "MIT",
   "description": "This package is for handling error in any type of Javascript application in an aspect oriented way.",
   "main": "dist/index.js",
@@ -29,10 +30,6 @@
     "jest": "^25.2.1",
     "@types/jest": "^25.2.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ahmetegesel/global-error-handler.git"
-  },
   "directories": {
     "test": "tests",
     "src": "src",
@@ -45,5 +42,12 @@
     "global-error-handler",
     "global-error"
   ],
-  "author": "ahmetegesel@hotmail.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetegesel/global-error-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmetegesel/global-error-handler/issues"
+  },
+  "homepage": "https://github.com/ahmetegesel/global-error-handler#readme"
 }
