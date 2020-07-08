@@ -5,7 +5,7 @@
 This package is for handling error in any type of Javascript application in an aspect oriented way.
 
 ## Installation
-```
+```sh
 npm install global-error-handler
 ```
 
@@ -24,7 +24,7 @@ To understand better, see the _**Usage**_ section.
 There are two ways of registering an `ErrorHandler`.
 
 ### Register with a unique 'string' key
-```
+```js
 // someMain.js
 import { GlobalErrorHandler } from 'global-error-handler';
 
@@ -59,7 +59,7 @@ class which is defined by default in Javascript.
 
 This way you can have the benefit of being able to use `throw` keyword and make your app
 catch the error and pass it to `GlobalErrorHandler` to handle it.
-```
+```js
 // someMain.js
 import { GlobalErrorHandler } from 'global-error-handler';
 
